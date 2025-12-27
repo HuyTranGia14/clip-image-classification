@@ -1,0 +1,40 @@
+# ============================================================================
+# CLIP Prompt Ensemble - Requirements
+# ============================================================================
+# 
+# Cài đặt: pip install -r requirements.txt
+#
+# ============================================================================
+
+# ----------------------------------------------------------------------------
+# Core Dependencies
+# ----------------------------------------------------------------------------
+
+# PyTorch - Deep Learning Framework
+torch>=1.13.0
+torchvision>=0.14.0
+
+# CLIP - OpenAI's model
+git+https://github.com/openai/CLIP.git
+
+# Pillow - Image processing
+Pillow>=9.0.0
+
+# NumPy - Numerical computing
+numpy>=1.21.0
+
+# Matplotlib - Visualization
+matplotlib>=3.5.0
+
+# ----------------------------------------------------------------------------
+# Optional (for better performance)
+# ----------------------------------------------------------------------------
+
+# ftfy - Text normalization (used by CLIP)
+ftfy>=6.0.0
+
+# Regex - Pattern matching (used by CLIP tokenizer)
+regex>=2021.0.0
+
+# tqdm - Progress bars (useful for batch processing)
+tqdm>=4.62.0

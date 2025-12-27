@@ -1,0 +1,93 @@
+MIT License
+
+Copyright (c) 2025 Gia Huy
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+## Additional Notices
+
+This project uses the following third-party libraries:
+
+1. **CLIP (Contrastive Language-Image Pre-training)**
+   - Copyright (c) 2021 OpenAI
+   - License: MIT License
+   - Repository: https://github.com/openai/CLIP
+
+2. **PyTorch**
+   - Copyright (c) 2016-2023 Facebook, Inc. and its affiliates
+   - License: BSD-3-Clause License
+   - Repository: https://github.com/pytorch/pytorch
+
+3. **torchvision**
+   - Copyright (c) 2016-2023 Facebook, Inc. and its affiliates
+   - License: BSD-3-Clause License
+   - Repository: https://github.com/pytorch/vision
+
+4. **NumPy**
+   - Copyright (c) 2005-2023 NumPy Developers
+   - License: BSD-3-Clause License
+   - Repository: https://github.com/numpy/numpy
+
+5. **Pillow (PIL Fork)**
+   - Copyright (c) 1997-2023 by Secret Labs AB
+   - License: HPND License
+   - Repository: https://github.com/python-pillow/Pillow
+
+6. **Matplotlib**
+   - Copyright (c) 2012-2023 Matplotlib Development Team
+   - License: PSF-based License
+   - Repository: https://github.com/matplotlib/matplotlib
+
+7. **scikit-learn**
+   - Copyright (c) 2007-2023 The scikit-learn developers
+   - License: BSD-3-Clause License
+   - Repository: https://github.com/scikit-learn/scikit-learn
+
+---
+
+## Dataset Attribution
+
+This project may use images from the CIFAR-10 dataset:
+
+**CIFAR-10 Dataset**
+- Learning Multiple Layers of Features from Tiny Images
+- Alex Krizhevsky, 2009
+- https://www.cs.toronto.edu/~kriz/cifar.html
+
+If you use this project in your research, please cite:
+
+```bibtex
+@techreport{krizhevsky2009learning,
+  title={Learning multiple layers of features from tiny images},
+  author={Krizhevsky, Alex and Hinton, Geoffrey and others},
+  year={2009},
+  institution={University of Toronto}
+}
+
+@inproceedings{radford2021learning,
+  title={Learning transferable visual models from natural language supervision},
+  author={Radford, Alec and Kim, Jong Wook and Hallacy, Chris and Ramesh, Aditya and Goh, Gabriel and Agarwal, Sandhini and Sastry, Girish and Askell, Amanda and Mishkin, Pamela and Clark, Jack and others},
+  booktitle={International Conference on Machine Learning},
+  pages={8748--8763},
+  year={2021},
+  organization={PMLR}
+}
+```
